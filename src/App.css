@@ -6,10 +6,15 @@ body {
   display: grid;
   max-width: 1200px;
   margin: 0 auto;
-  grid-template-areas: 
+  grid-template-areas:
     "h h"
     "n c";
   grid-template-rows: 60px auto;
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
+}
+
+.app-wrapper-content {
+  grid-area: c;
+  background-color: #6f7de682;
 }
